@@ -1,0 +1,3 @@
+string="nikita"
+x=string.replace('k','g')
+print(x)
