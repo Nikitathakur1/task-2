@@ -1,0 +1,6 @@
+#write a python script to merge two python dictionariers
+d1={'a': 20, 'b': 7}
+d2={'c': 6 ,'d': 9}
+d=d1.copy()
+d.update(d2)
+print(d)
