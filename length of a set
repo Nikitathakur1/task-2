@@ -1,0 +1,8 @@
+#write a python programme to find the length bof a set
+set = ('nikki','neha','anaya')
+print(len(set))
+
+
+
+
+
