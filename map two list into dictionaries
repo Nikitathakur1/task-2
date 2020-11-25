@@ -1,0 +1,7 @@
+#write a python programme to map two list into a dictionary
+keys=["red","green","biue"]
+values=['1','2','3']
+color_dictionary=dict(zip(keys,values))
+print(color_dictionary)
+
+
