@@ -1,0 +1,4 @@
+#create a tuple and print the reverse of the created tuple
+t1=(5,8,2,'Nikki')
+t=reversed(x)
+print(tuple(t))
