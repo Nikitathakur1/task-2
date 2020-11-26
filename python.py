@@ -1,5 +1,3 @@
-#write a python program to remove a key from a dictionaries
-d1 = {1: "nikita", 2: "neha", 3: "ankit"}
-del d1[1]
-print(d1)
-
+t1=(3,6,8,4,'nikki')
+t=reversed(t1)
+print(tuple(t))
