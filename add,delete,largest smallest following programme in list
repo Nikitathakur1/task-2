@@ -1,0 +1,24 @@
+#write a programme to create a list of n integer values and do the following
+#add an item in to the list
+list=[5,9,8]
+list.append("nikki")
+print(list)
+
+#delete an item
+list=[9,5,4,'nikki']
+list.remove("nikki")
+print(list)
+
+#store the largest number from the list to a variable
+list=[1,7,9,5,7]
+list.sort()
+print("largest number in the list is:",max(list))
+
+
+#store the smallest number from the list to a variable
+list=[9,6,5,4]
+list.sort()
+print("smallest number from the list to a variable " ,min(list))
+
+
+
