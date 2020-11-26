@@ -1,0 +1,5 @@
+#convert alist into tuple
+tuple=(True,7,'nikki',9.8)
+list=list(tuple)
+print(type(list))
+print(list)
