@@ -1,0 +1,4 @@
+def covid(patientname,body_Temp=98):
+    print("enter patient name", patientname)
+    print("patient body temprature is", body_Temp ,"degree")
+covid("rakesh")
