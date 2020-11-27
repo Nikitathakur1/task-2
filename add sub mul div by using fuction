@@ -1,0 +1,20 @@
+#create a function getting two integer inputs user and print the following
+def add_num(a,b):
+    sum=a+b;
+    return sum;
+def sub_num(c,d):
+    s=c-d;
+    return s;
+def div_num(e,f):
+    d=e/f;
+    return d;
+def mul_num(g,h):
+     m=g*h;
+     return g;
+num1=int(input("enter fist number"))
+num2=int(input("enter second value"))
+print("the sum is",add_num(num1,num2))
+print("the s is",sub_num(num1,num2))
+print("the d is",div_num(num1,num2))
+print("the m is ",mul_num(num1,num2))
+
