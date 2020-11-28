@@ -1,0 +1,12 @@
+#write a funtion using math functio
+import math
+x=math.sqrt(25)
+print(x)
+y=math.floor(2.9)
+print(y)
+z=math.ceil(6.9)
+print(z)
+t=math.pow(7,8)
+print(t)
+n=math.pi
+print(n)
