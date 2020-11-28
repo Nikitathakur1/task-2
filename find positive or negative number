@@ -1,0 +1,9 @@
+#cheak if a programme is negative or not
+num =int(input('enter the number'))
+if num >= 0:
+    if num == 0:
+        print("zero")
+    else:
+        print("positive number ")
+else:
+        print("print negative")
