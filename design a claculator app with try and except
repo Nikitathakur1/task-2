@@ -1,0 +1,17 @@
+#design a simple calculator app with try and except for all use cases
+num1=float(input("enter a number"))
+operator=input("enter an operator")
+num2=float(input("enter another number"))
+try:
+   if operator =='-':
+        print(num1-num2)
+   elif operator =='+':
+        print(num1+num2)
+   elif operator=="/":
+        print(num1/num2)
+   elif operator=="*":
+        print(num1 * num2)
+except:
+    print("airtmatic error")
+else:
+        print("you have not entered a valid operator")
