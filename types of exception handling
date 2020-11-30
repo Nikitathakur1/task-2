@@ -1,0 +1,19 @@
+#list  down all the error types and cheak all the error using a python programme for all error
+#compiletime error=wrong spelling (sytax error)
+#logical(wrong output)
+#runtime(divide by zero)
+
+#a=5
+#b=0
+#print(a/b)
+#print("bye")
+#(run time error zero/zeo division eror)
+
+#so we used exception handling
+a=5
+b=0
+try:
+    print(a/b)
+except Exception as e:
+    print("hey ,you can not divide a number by zero",e)
+print("bye")
