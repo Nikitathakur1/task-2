@@ -1,0 +1,13 @@
+
+#try getting an input inside the try catch block
+while True:
+     try:
+        n=input("please enter an integer:")
+        n=int(n)
+        break
+     except:
+        print("no valid integer! please try again . . . ")
+        print("great,you succesfully entered a valid integer!")
+
+
+
