@@ -1,0 +1,4 @@
+#write a python programme to find numbers divided by 9 from alist o
+my_list=[8,9,7,5,18]
+result=list(filter(lambda x: (x %9 == 0),my_list))
+print("numbers divisible by 9 are",result)
