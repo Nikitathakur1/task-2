@@ -1,0 +1,4 @@
+#write a python programme to count the even numbers in a given list of integers
+nums=[2,6,7,9,6,8]
+evens=list(filter(lambda n:n%2==0,nums))
+print(evens)
