@@ -1,0 +1,8 @@
+#write a python programme that multiply each number of given list with a given nu
+nums=[2,4,9,8,6]
+n=2
+print("originallist:",nums)
+print("given number:",n)
+filtered_numbers=list(map(lambda number:number*n,nums))
+print("result:")
+print(''.join(map(str,filtered_numbers)))
