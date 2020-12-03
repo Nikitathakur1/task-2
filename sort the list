@@ -1,0 +1,7 @@
+#using sorted()function ,sort the list in asscending order
+list=[9,8,7,6,5,4,3,2]
+list.sort()
+print(list)
+
+
+
