@@ -1,0 +1,13 @@
+#write a python programme that mathes a word containning ab
+import re
+def text_match(text):
+    patterns='\w*ab.\w*'
+    if re.search(patterns,text):
+        print("found a match")
+    else:
+        print("not found a match")
+print(text_match("hello abhishek"))
+
+
+
+
