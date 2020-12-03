@@ -1,0 +1,7 @@
+#write a programme using filter function ,filter the even number so that only odd numbers so that only odd number are passed to the new list
+number=[4,9,3,7,5,2,4,8,]
+number = list(filter(lambda n:n%2==1,number))
+print(number)
+
+
+
