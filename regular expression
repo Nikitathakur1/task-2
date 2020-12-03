@@ -1,0 +1,17 @@
+#write a python programme for all the cases which can cheak a string contains only a certain set of characters (int this cases a-z and 0-9
+#\w[a-zA-Z0-9]
+#\w[^a-zA-Z0-9]
+
+
+import re
+phn="412-566-1212"
+if re.search("\d{3}-\d{3}-\d{4}",phn):
+    print("it is a phone no")
+
+import re
+name="nikita thakur"
+if re.search('\w{2,20}\s\w{2,20}' , name):
+    print("full name is valid")
+
+
+
