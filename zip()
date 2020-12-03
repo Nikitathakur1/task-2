@@ -1,0 +1,11 @@
+#write a python programme using Zip() function amd list()function ,create a merged list of tuples from the two list given
+names=('harsh','kiran','navin')
+ages=('30','32','7')
+zipped=list(zip(names,ages))
+print(zipped)
+
+
+
+
+
+
